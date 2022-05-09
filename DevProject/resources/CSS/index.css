@@ -1,6 +1,5 @@
 body{
-    /*background-image: url(./resources/media/Wallpaper.jpg);*/
-    background-color: black;
+    background-image: url(/resources/media/Wallpaper.jpg);
 }
 
 * {
