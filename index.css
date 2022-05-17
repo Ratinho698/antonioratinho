@@ -50,6 +50,9 @@ header h1 {
 
 .hello {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
     margin-left: 30px;
     margin-top: 50px;
@@ -63,6 +66,9 @@ header h1 {
 
 .introduction {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
     margin-right: 30px;
     margin-top: 50px;
