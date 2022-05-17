@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-    font-size: 300%;
+    font-size: 5.46448087431694vh;
     margin: 5px;
     color: #f3f169;
     font-family: 'Times New Roman', Times, serif;
@@ -57,7 +57,7 @@ header h1 {
     margin-left: 30px;
     margin-top: 50px;
     text-align: end;
-    font-size: 550%;
+    font-size: 8.743169398907105vh;
     background-color: #2d6cdf;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -73,7 +73,7 @@ header h1 {
     margin-right: 30px;
     margin-top: 50px;
     text-align: start;
-    font-size: 250%;
+    font-size: 4.371584699453552vh;
     background-color: #46c3db;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -85,7 +85,7 @@ header h1 {
     justify-content: center;
     padding: 20px;
     margin: 50px 30px;
-    font-size: 250%;
+    font-size: 4.371584699453552vh;
     text-align: center;
     background-color: #f3f169;
     color: #071e3d;
@@ -112,7 +112,7 @@ header h1 {
     padding: 20px;
     height: 290px;
     margin: 50px 30px;
-    font-size: 310%;
+    font-size: 5.382131324004305vh;
     align-self: center;
     text-align: end;
     background-color: #46c3db;
@@ -138,7 +138,7 @@ header h1 {
 
 .contacts {
     color: #ffffff;
-    font-size: 100%;
+    font-size: 1.7222820236813778vh;
 }
 
 .contacts a {
@@ -152,5 +152,5 @@ header h1 {
 .madeBy {
     align-self: center;
     color: #ffffff;
-    font-size: 100%;
+    font-size: 1.7222820236813778vh;
 }
