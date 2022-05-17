@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html {
+    background-color: #c5e3f6;
+}
+
 header {
     display: flex;
     justify-content: space-between;
