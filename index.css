@@ -121,6 +121,8 @@ header h1 {
 }
 
 .image {
+    width: 70%;
+    height: auto;
     margin: 50px 30px;
     border: 2px solid #2d6cdf;
     border-radius: 10px;
