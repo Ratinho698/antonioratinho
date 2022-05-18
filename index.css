@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-    font-size: 5.46448087431694vh;
+    font-size: 3.125em;
     margin: 5px;
     color: #f3f169;
     font-family: 'Times New Roman', Times, serif;
@@ -57,7 +57,7 @@ header h1 {
     margin-left: 30px;
     margin-top: 50px;
     text-align: end;
-    font-size: 8.743169398907105vh;
+    font-size: 5em;
     background-color: #2d6cdf;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -73,7 +73,7 @@ header h1 {
     margin-right: 30px;
     margin-top: 50px;
     text-align: start;
-    font-size: 4.371584699453552vh;
+    font-size: 2.5em;
     background-color: #46c3db;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -85,7 +85,7 @@ header h1 {
     justify-content: center;
     padding: 20px;
     margin: 50px 30px;
-    font-size: 4.371584699453552vh;
+    font-size: 2.5em;
     text-align: center;
     background-color: #f3f169;
     color: #071e3d;
@@ -112,7 +112,7 @@ header h1 {
     padding: 20px;
     height: 290px;
     margin: 50px 30px;
-    font-size: 5.382131324004305vh;
+    font-size: 3.125em;
     align-self: center;
     text-align: end;
     background-color: #46c3db;
