@@ -112,12 +112,15 @@ header h1 {
 
 .first {
     padding: 1.25em;
-    height: 5.725em;
-    font-size: 3.525em;
+    height: auto;
     align-self: center;
     text-align: end;
     background-color: #46c3db;
     border-radius: 0.625em;
+}
+
+.first p {
+    font-size: 3.225em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -171,8 +174,14 @@ header h1 {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 4px;
+    }
+}
+
 @media only screen and (max-width: 480) {
     html {
-        font-size: 1px;
+        font-size: 2px;
     }
 }
