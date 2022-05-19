@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #c5e3f6;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 5em;
+    background-color: #482ff7;
+    color: #071e3d;
+    align-items: center;
+    border-bottom-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+}
+
+.profilePic {
+    margin: 0.3125em;
+    width: 4.375em;
+    height: 4.375em;
+    border-radius: 50%;
+}
+
+.media img {
+    margin: 0.3125em;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 0.9375em;
+}
+
+header h1 {
+    font-size: 3.125em;
+    margin: 0.3125em;
+    color: #f3f169;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 30em;
+    color: #071e3d;
+    margin: 4.125em;
+}
+
+.hello {
+    padding: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: end;
+    font-size: 5em;
+    background-color: #2d6cdf;
+    border-top-left-radius: 0.625em;
+    border-bottom-left-radius: 0.625em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.introduction {
+    padding: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: start;
+    font-size: 2.5em;
+    background-color: #46c3db;
+    border-top-right-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    padding: 1.25em;
+    margin: 4.125em;
+    background-color: #f3f169;
+    border-radius: 0.625em;
+}
+
+.skills p {
+    color: #071e3d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.skills a {
+    color: #071e3d;
+    text-decoration: none;
+}
+
+.skills a:hover {
+    color: #ff304f;
+    text-decoration: underline;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    margin: 4.125em;
+}
+
+.first {
+    padding: 1.25em;
+    height: 5.725em;
+    font-size: 3.525em;
+    align-self: center;
+    text-align: end;
+    background-color: #46c3db;
+    border-radius: 0.625em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    height: 100%;
+    width: auto;
+    margin-left: 1.875em;
+    border: 0.125em solid #2d6cdf;
+    border-radius: 0.625em;
+}
+
+.image img {
+    height: auto;
+    width: 100%
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #482ff7;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts {
+    color: #ffffff;
+}
+
+.contacts a {
+    color: #46c3db;
+}
+
+.contacts a:hover {
+    color:#ff304f;
+}
+
+.madeBy {
+    align-self: center;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1600px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size:6px;
+    }
+}
+
+@media only screen and (max-width: 480) {
+    html {
+        font-size: 1px;
+    }
+}
